@@ -1,81 +1,143 @@
  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600&family=Oswald:wght@300;400;500;600&family=Smokum&family=Work+Sans:wght@400;500;600;700&display=swap');
-/*common css*/
+
+ /*common css*/
  * {
    font-family: 'Work Sans', sans-serif;
  }
- .btn-primary{
-  color: #fff;
-  background-color: #FF900E;
-  font-size: 20px;
-  font-weight: 600;
-  padding: 15px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
+
+ .btn-primary {
+   color: #fff;
+   background-color: #FF900E;
+   font-size: 20px;
+   font-weight: 600;
+   padding: 15px;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
  }
+
  /*header css*/
- header{
-  background: rgba(255, 144, 14, 0.10);
-  padding: 50px 200px;
+ header {
+   background: rgba(255, 144, 14, 0.10);
+   padding: 50px 200px;
  }
+
  /*nav css*/
- nav{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* padding: 50px 200px; */
+ nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* padding: 50px 200px; */
  }
- .nav-title{
-  color: #131313;
-  font-size: 45px;
-  font-weight: 700;
+
+ .nav-title {
+   color: #131313;
+   font-size: 45px;
+   font-weight: 700;
  }
- nav > ul{
-  display: flex;
+
+ nav>ul {
+   display: flex;
  }
- nav li{
-  list-style: none;
-  margin-right: 2rem;
+
+ nav li {
+   list-style: none;
+   margin-right: 2rem;
  }
- nav li a{
-  text-decoration: none;
-  color: #424242;
-  font-size: 18px;
-  font-weight: 500;
+
+ nav li a {
+   text-decoration: none;
+   color: #424242;
+   font-size: 18px;
+   font-weight: 500;
  }
 
  /*bannar css*/
- .bannar-con{
-  max-width: 800px;
-  text-align: center;
-  margin: 0 auto;
+ .bannar-con {
+   max-width: 800px;
+   text-align: center;
+   margin: 0 auto;
  }
- .bannar-title{
-  color: #131313;
-  font-size: 4rem;
-  font-weight: 700;
-  margin-bottom: 0;
+
+ .bannar-title {
+   color: #131313;
+   font-size: 4rem;
+   font-weight: 700;
+   margin-bottom: 0;
  }
- .bannar-disc{
+
+ .bannar-disc {
+   color: #727272;
+   line-height: 26px;
+   margin: 30px 0;
+ }
+
+ .bannar .bannar-image {
+   width: 100%;
+   margin-top: 30px;
+   border-radius: 8px;
+   /* padding: 40px 220px; */
+   /* margin: 45px 240px; */
+   /* height: 700px; */
+ }
+
+ /*main part css start*/
+ main {
+   max-width: 1440px;
+   margin: 0 auto;
+ }
+
+ /*team part css*/
+ .teams-part-container {
+   display: flex;
+   gap: 50px;
+   margin-top: 100px;
+ }
+
+ .teams-images {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 24px;
+   align-items: center;
+   padding-left: 100px;
+ }
+. .teams-images img{
+  width: 100%;
+}
+ .teams-con {
+  margin-top: 200px;
+  padding-right: 100px;
+ }
+
+ .teams-title {
+   color:#727272;
+   font-size: 45px;
+   font-weight: 500;
+   margin-bottom: 0;
+ }
+ .teams-disc{
   color: #727272;
-  line-height: 26px;
-  margin: 30px 0;
  }
- .bannar .bannar-image{
-  width:100%;
-  margin-top: 30px;
-  border-radius: 8px;
-  /* padding: 40px 220px; */
-  /* margin: 45px 240px; */
-  /* height: 700px; */ 
- }
+
+ /*main part css end*/
 
  /*responsive part*/
  @media screen and (max-width: 576px) {
-  header{
-    padding: 20px;
-  }
-  nav{
-    flex-direction: column;
-  }
+   header {
+     padding: 20px;
+   }
+
+   nav {
+     flex-direction: column;
+   }
+ }
+
+ @media screen and (min-width: 576px) and (max-width: 960px) {
+   header {
+     padding: 20px;
+   }
+
+   nav {
+     flex-direction: column;
+   }
  }
