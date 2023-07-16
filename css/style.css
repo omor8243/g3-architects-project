@@ -127,7 +127,79 @@
    color: #727272;
  }
 
- /*main part css end*/
+ /*team part css end*/
+
+ /*features part css*/
+ .features-part-container {
+   margin-top: 150px;
+   padding: 50px;
+ }
+
+ .features-part {
+   display: flex;
+ }
+
+ .features-con {
+   width: 80%;
+ }
+
+ .features-con-part-title {
+   color: #131313;
+   font-size: 2.8rem;
+   font-weight: 700;
+   border-left: 5px solid #FF900E;
+   margin: 0;
+ }
+
+ .features-con-part-disc {
+   color: #727272;
+   line-height: 1.3rem;
+   margin: 1.3rem 0;
+ }
+
+ .features-con-sub-title {
+   color: #131313;
+   font-size: 20px;
+   font-weight: 600;
+   margin: 0;
+ }
+
+ .features-con-sub-disc {
+   color: #727272;
+   line-height: 1.3rem;
+   padding-bottom: 2rem;
+ }
+
+ .features-image img {
+  /* position: absolute; */
+   width: 100%
+ }
+
+ .box-title {
+   width: 300px;
+   height: 180px;
+   border-radius: 8px;
+   background: #FF900E;
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   /* position: relative; */
+ }
+
+ .box-title h3 {
+   font-size: 2rem;
+   font-weight: 700;
+ }
+
+ .box-sub-title {
+   color: #FFF;
+   font-size: 1rem;
+   font-weight: 500;
+   /* margin-top: -50px; */
+ }
+
  /*facts part css*/
  .facts-con {
    padding-left: 100px;
@@ -213,7 +285,7 @@
  }
 
  .footer-con p {
-   color:#424242;
+   color: #424242;
    font-size: 1.2rem;
  }
 
@@ -253,8 +325,9 @@
    .sponsor-icon {
      gap: 2rem;
    }
-   .footer-con p{
-    text-align: center;
+
+   .footer-con p {
+     text-align: center;
    }
  }
 
@@ -295,7 +368,8 @@
    .sponsor-icon {
      gap: 2rem;
    }
-   .footer-con p{
-    text-align: center;
+
+   .footer-con p {
+     text-align: center;
    }
  }
