@@ -84,14 +84,13 @@
  /*main part css start*/
  main {
    max-width: 1440px;
-   margin: 0 auto;
+   margin: 70px auto;
  }
 
  /*team part css*/
  .teams-part-container {
    display: flex;
    gap: 50px;
-   margin-top: 100px;
  }
 
  .teams-images {
@@ -101,9 +100,6 @@
    align-items: center;
    padding-left: 100px;
  }
-. .teams-images img{
-  width: 100%;
-}
  .teams-con {
   margin-top: 200px;
   padding-right: 100px;
@@ -114,6 +110,14 @@
    font-size: 45px;
    font-weight: 500;
    margin-bottom: 0;
+ }
+ .of-our{
+  color: #131313;
+  font-weight: 700;
+ }
+ .features{
+  color: #FF900E;
+  font-weight: 700;
  }
  .teams-disc{
   color: #727272;
@@ -127,8 +131,16 @@
      padding: 20px;
    }
 
-   nav {
+   nav, .teams-part-container{
      flex-direction: column;
+   }
+   .teams-images {
+    grid-template-columns: 1fr;
+   }
+   .teams-con{
+    padding: 0;
+    margin-top: 100px;
+    text-align: center;
    }
  }
 
@@ -137,7 +149,17 @@
      padding: 20px;
    }
 
-   nav {
+   nav, .teams-part-container {
      flex-direction: column;
+   }
+   .teams-images {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    padding: 0;
+   }
+   .teams-con{
+    padding: 0;
+    margin-top: 100px;
+    text-align: center;
    }
  }
