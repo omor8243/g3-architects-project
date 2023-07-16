@@ -186,18 +186,35 @@
  }
 
  .sponsor-disc {
-   color:  #727272;
+   color: #727272;
    text-align: center;
    line-height: 26px;
    margin-bottom: 40px;
  }
- .sponsor-icon{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  gap: 5rem;
-  /* text-align: center; */
+
+ .sponsor-icon {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   gap: 5rem;
+   /* text-align: center; */
+ }
+
+ footer {
+   border-radius: 8px;
+   background: #FFF4E7;
+   margin: 100px 0;
+ }
+
+ .footer-con {
+   display: flex;
+   justify-content: center;
+ }
+
+ .footer-con p {
+   color:#424242;
+   font-size: 1.2rem;
  }
 
  /*responsive part*/
@@ -207,7 +224,8 @@
    }
 
    nav,
-   .teams-part-container, .sponsor-icon {
+   .teams-part-container,
+   .sponsor-icon {
      flex-direction: column;
    }
 
@@ -231,8 +249,12 @@
      padding: 10px;
      gap: 20px;
    }
-   .sponsor-icon{
-    gap: 2rem;
+
+   .sponsor-icon {
+     gap: 2rem;
+   }
+   .footer-con p{
+    text-align: center;
    }
  }
 
@@ -243,7 +265,8 @@
    }
 
    nav,
-   .teams-part-container, .sponsor-icon {
+   .teams-part-container,
+   .sponsor-icon {
      flex-direction: column;
    }
 
@@ -268,7 +291,11 @@
      padding: 10px;
      gap: 20px;
    }
-   .sponsor-icon{
-    gap: 2rem;
+
+   .sponsor-icon {
+     gap: 2rem;
+   }
+   .footer-con p{
+    text-align: center;
    }
  }
